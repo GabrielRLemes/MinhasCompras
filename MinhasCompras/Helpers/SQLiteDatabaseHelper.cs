@@ -14,7 +14,7 @@ namespace MinhasCompras.Helpers
 
         public Task<int> Insert(Produto p) 
         {
-            return _conn.InsertAsync(p)
+            return _conn.InsertAsync(p);
         }
         public Task<List<Produto>> Update(Produto p) 
         {
